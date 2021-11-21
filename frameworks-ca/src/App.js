@@ -9,6 +9,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function App() {
   return (
@@ -37,7 +39,19 @@ function App() {
           <Route path='/News' element={<News />} />
           <Route path='/Contact' element={<Contact />} />
         </Routes>
-      </div >
+        <Row className="footer">
+          <Col className="footer-item">
+            <i class="fab fa-vimeo-v fa-2x"></i>
+            <i class="fab fa-youtube fa-2x"></i>
+          </Col>
+          <Col className="footer-item">
+            <h4>hello@yay.com</h4>
+          </Col>
+          <Col className="footer-item">
+            <h4>Copyright 2021</h4>
+          </Col>
+        </Row>
+      </div>
     </Router >
   )
 }

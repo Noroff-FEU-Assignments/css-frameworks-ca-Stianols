@@ -5,7 +5,7 @@ $color-dark: #efefef;
 $color-white: #fff;
 $color-gray: #c7c7c7;
 $color-dark-gray: #767676;
-$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
+
 
 // bootstrap
 $theme-colors: (
@@ -24,10 +24,11 @@ $input-placeholder-color: #767676;
 $font-family-base: "Lato", serif;
 $headings-font-family: "Playfair Display", sans-serif;
 
-$body-bg: $gradient;
-
 $border-style: 1px solid $color-primary;
 
+body {
+    background: radial-gradient(#fff, #eeeeee);
+}
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -37,3 +38,4 @@ $border-style: 1px solid $color-primary;
 @import "./partials/nav";
 @import "./partials/news";
 @import "./partials/contact";
+@import "./partials/footer";
