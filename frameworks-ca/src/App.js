@@ -16,7 +16,7 @@ function App() {
       <div>
         <Container>
           <Navbar bg="dark" expand="md" variant="primary">
-            <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
+            <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" variant="primary" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">

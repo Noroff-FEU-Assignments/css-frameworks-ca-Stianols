@@ -1,0 +1,33 @@
+.input-group-text {
+    background-color: $color-gray;
+}
+
+form {
+    background-color: $color-dark;
+}
+
+.form-control {
+    background: $color-white;
+}
+
+.textarea.form-control {
+    min-height: calc(6em + 0.75rem + 2px);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    color: $color-dark-gray;
+
+    i {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    h3{
+        font-family: 'Lato', serif;
+        font-size: 0.6em;
+        padding-left: 30px;
+    }
+}

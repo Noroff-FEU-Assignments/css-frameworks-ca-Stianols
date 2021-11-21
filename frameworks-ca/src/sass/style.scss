@@ -3,12 +3,17 @@ $color-primary: #e92569;
 $color-secondary: #0a0a0a;
 $color-dark: #efefef;
 $color-white: #fff;
+$color-gray: #c7c7c7;
+$color-dark-gray: #767676;
+$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 
 // bootstrap
 $theme-colors: (
     "dark": $color-dark,
     "primary": $color-primary,
     "white": $color-white,
+    "gray": $color-gray,
+    "dark-gray": $color-dark-gray,
 );
 
 $primary: $color-primary;
@@ -19,7 +24,7 @@ $input-placeholder-color: #767676;
 $font-family-base: "Lato", serif;
 $headings-font-family: "Playfair Display", sans-serif;
 
-$body-bg: $color-dark;
+$body-bg: $gradient;
 
 $border-style: 1px solid $color-primary;
 
@@ -31,3 +36,4 @@ $border-style: 1px solid $color-primary;
 @import "./partials/typography";
 @import "./partials/nav";
 @import "./partials/news";
+@import "./partials/contact";
