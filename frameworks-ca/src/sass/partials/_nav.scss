@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.nav-link { 
+    color: $color-secondary;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $color-white;
+    }
+}
+
+.navbar-toggler-icon {
+    cursor: pointer;
+    color: $color-primary;
+}
+
+.Navbar-Text {
+    display: flex;
+}

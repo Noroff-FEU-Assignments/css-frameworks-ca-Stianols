@@ -1,0 +1,33 @@
+// custom
+$color-primary: #e92569;
+$color-secondary: #0a0a0a;
+$color-dark: #efefef;
+$color-white: #fff;
+
+// bootstrap
+$theme-colors: (
+    "dark": $color-dark,
+    "primary": $color-primary,
+    "white": $color-white,
+);
+
+$primary: $color-primary;
+$secondary: $color-secondary;
+
+$input-placeholder-color: #767676;
+
+$font-family-base: "Lato", serif;
+$headings-font-family: "Playfair Display", sans-serif;
+
+$body-bg: $color-dark;
+
+$border-style: 1px solid $color-primary;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/tabs";
+@import "./partials/carousel";
+@import "./partials/typography";
+@import "./partials/nav";
+@import "./partials/news";
